@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "This directory contains some custom configuration settings/files for use with NodeJS.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": {
+    "name": "Devin W. Leaman (jisodl0)",
+    "email": "Devin.Leaman@jbhunt.com",
+    "url": "https://www.jbhunt.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "enquirer": "^2.3.6"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
